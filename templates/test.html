@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>知识地图</title>
+        <style>
+            
+            body {
+                color: #2B9FA9;
+                background-color: #EEEEEE;
+                font-size: 16px;
+                width: 1280px;
+                height: 800px;
+                overflow-x:hidden;
+                overflow-y:hidden;
+                /*border-bottom: 0.5px solid #fff;*/
+            }
+            
+            #text_div {
+                position: absolute;
+                top:50px;
+                left:50px;
+                z-index: 100;
+                width:300px;
+                height:500px;
+                background-color: #ffffff;
+            }
+            #rule_text {
+                z-index: 100;
+                width:300px;
+                height:500px;
+                font-size: 16px;
+                   
+            }
+        </style>
+        
+        <script type="text/javascript" src="js/lib/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/lib/raphael.js"></script>
+        <script type="text/javascript" src="js/lib/chroma.js"></script>
+        <script src="js/lib/d3.3.4.1.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        
+    </head>
+    
+    <body>
+        
+        <div id="text_div">
+            <textarea id="rule_text" ></textarea>
+        </div>
+        
+    </body>
+</html>
